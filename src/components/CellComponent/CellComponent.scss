@@ -1,0 +1,27 @@
+.cell{
+  width:84px;
+  height:84px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  img{
+    width:64px;
+    height:64px;
+    position:relative;
+  }
+}
+.black{
+  background-color: deepskyblue;
+}
+.white{
+  background-color:#eed4ac;
+}
+.selected{
+  background-color:brown;
+}
+.available{
+  height:18px;
+  width:18px;
+  border-radius:50%;
+  background-color:#22c022;
+}

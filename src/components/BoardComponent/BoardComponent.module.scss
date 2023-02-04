@@ -1,0 +1,17 @@
+.wrapper{
+  display:flex;
+  flex-direction:column;
+}
+.board{
+  width:calc(84px*8);
+  height:calc(84px*8);
+  display:flex;
+  flex-wrap:wrap;
+}
+.Player{
+  font-size:26px;
+  padding:2%;
+  span{
+    font-weight:bold;
+  }
+}
