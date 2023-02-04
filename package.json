@@ -29,6 +29,7 @@
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
